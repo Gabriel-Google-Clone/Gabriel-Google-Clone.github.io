@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="hide-on-desktop">
+            <img src="assets/svg/notification.svg" alt="notification" />
+          </li>
+        <ul>
+          <li class="link-desktop">
+            <a href="https://mail.google.com">Gmail</a>
+          </li>
+          <li class="link-desktop">
+            <a href="https://www.google.com.br/imghp">Imagens</a>
+          </li>
+          <li><img src="assets/svg/apps.svg" alt="apps" /></li>
+          <li id="profile">
+            <img id="border" src="assets/img/icone_usuario.png" alt="usuário" />
+            <img
+              id="avatar"
+              src="assets/img/foto_usuario.jpg"
+              alt="usuario foto"
+            />
+          </li>
+        </ul>
+      </nav>
+      <div class="hide-on-desktop">
+        <button><img src="assets/svg/hambuguer_icon.svg" alt="menu" /></button>
+        <ul>
+          <li class="active">
+            <a href="#">Todas</a>
+          </li>
+          <li>
+            <a href="#">Imagens</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div>
+        <img src="assets/img/logo_google.png" alt="Logo Google" id="logo" />
+        <form action="https://google.com/search">
+          <div class="search_border">
+            <div>
+              <img src="assets/svg/lupa.svg" alt="Lupa" />
+            </div>
+            <input type="search" name="q" />
+            <div class="input-icons">
+              <img src="assets/img/teclado.png" alt="teclado" />
+            </div>
+            <div class="input-icons">
+              <img src="assets/svg/pesquisa_voz.svg" alt="pesquisa_voz" />
+            </div>
+            <div class="input-icons">
+              <img
+                src="assets/svg/pesquisa_imagens.svg"
+                alt="pesquisa_imagens"
+              />
+            </div>
+          </div>
+          <div class="button">
+            <button type="submit">Pesquisar Google</button>
+            <button id="iluck" type="button">Estou com sorte</button>
+          </div>
+        </form>
+      </div>
+      <ul class="hide-on-desktop">
+        <li class="header">
+          <span>Pesquisas em alta</span>
+          <img src="assets/svg/threedots.svg" alt="dots">
+        </li>
+        <li>
+          <img src="assets/svg/toppers.svg" alt="em_alta">
+          <span>Aprendendo HTML</span>
+        </li>
+        <li>
+          <img src="assets/svg/toppers.svg" alt="em_alta">
+          <span>Aprendendo CSS</span>
+        </li>
+        <li>
+          <img src="assets/svg/toppers.svg" alt="em_alta">
+          <span>Aprendendo JAVASCRIPT</span>
+        </li>
+        <li>
+          <img src="assets/svg/toppers.svg" alt="em_alta">
+          <span>Aprendendo MYSQL</span>
+        </li>
+        <li>
+          <img src="assets/svg/toppers.svg" alt="em_alta">
+          <span>Aprendendo PHP</span>
+        </li>
+        <li>
+          <img src="assets/svg/toppers.svg" alt="em_alta">
+          <span>Aprendendo PYTHON</span>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <p>Brasil</p>
+      <nav>
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Publicidade</a></li>
+          <li><a href="#">Negócios</a></li>
+          <li><a href="#">Como funciona a pesquisa</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Termos</a></li>
+          <li><a href="#">Configurações</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
